@@ -80,7 +80,6 @@ header h1 {
     margin: 0 auto;
     margin-top: 40px;
     padding: 0 10px;
-    border:2px solid black;
 }
 
 @media(max-width:600px) {
@@ -109,7 +108,7 @@ header h1 {
 }
 
 @media(max-width:420px) {
-    .weapons img{
+    .weapon s img{
         width:65px;
     }
     

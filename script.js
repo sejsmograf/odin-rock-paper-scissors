@@ -29,11 +29,13 @@ function playRound(playerChoice, computerChoice = getComputerChoice()) {
 }
 
 function updateScores(result) {
+
     playerCounter.textContent = userScore;
     computerCounter.textContent=computerScore;
     outcome.textContent = result;
  }
 
+ 
 
 weapons.forEach(
     weapon => {
